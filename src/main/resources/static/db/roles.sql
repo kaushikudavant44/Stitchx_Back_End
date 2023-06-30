@@ -1,0 +1,5 @@
+REM INSERTING into ROLES
+SET DEFINE OFF;
+Insert into roles (ROLE_ID,ROLE_NAME,DESCRIPTION,STATUS,CREATED_DATE,MODIFIED_DATE) values (1,'ADMIN','Admin','A',NOW(),NOW());
+Insert into roles (ROLE_ID,ROLE_NAME,DESCRIPTION,STATUS,CREATED_DATE,MODIFIED_DATE) values (2,'USER','User','A',to_timestamp('2020-01-01 00:00:00.0','null'),to_timestamp('2020-01-01 00:00:00.0','null'));
+Insert into roles (ROLE_ID,ROLE_NAME,DESCRIPTION,STATUS,CREATED_DATE,MODIFIED_DATE) values (3,'SHOP_OWNER','SHOP_OWNER','A',to_timestamp('2020-01-01 00:00:00.0','null'),to_timestamp('2020-01-01 00:00:00.0','null'));
